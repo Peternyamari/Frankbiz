@@ -6,7 +6,7 @@ burger.addEventListener('click', () => {
     // Toggle Nav
     nav.classList.toggle('active');
     
-    // Animate Links
+    // Animate Linkss
     navLinks.forEach((link, index) => {
         if (link.style.animation) {
             link.style.animation = '';
