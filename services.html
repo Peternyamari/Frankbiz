@@ -87,13 +87,20 @@
         .service-button {
             display: inline-block;
             padding: 0.8rem 1.5rem;
-            background: #2c3e50;
+            background: var(--primary-color);
             color: white;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 25px;
             transition: all 0.3s ease;
-            width: 100%;
+            width: auto;
+            min-width: 180px;
             text-align: center;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            border: 2px solid var(--primary-color);
+            margin-top: 0.5rem;
         }
 
         .service-button:hover {
