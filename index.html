@@ -8,16 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
 .top-right-logo {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    margin-right: 10px;
 }
 
-.top-right-logo img {
-    height: 50px;
-    width: auto;
-    object-fit: contain;
+.logo {
+    display: flex;
+    align-items: center;
 }
+
         .hero-section {
             background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('images/hero-bg.jpg');
             background-size: cover;
@@ -167,12 +165,12 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">
-                <h1>TechNova Creatives</h1>
-            </div>
-            <div class="top-right-logo">
-                <img src="images/LOGO6.png" alt="Logo" />
-           </div>
+<div class="logo">
+    <div class="top-right-logo">
+        <img src="images/LOGO6.png" alt="Logo" />
+    </div>
+    <h1>TechNova Creatives</h1>
+</div>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
