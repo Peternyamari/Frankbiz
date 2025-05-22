@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
+.top-right-logo img {
+    height: 35px; /* Reduced from 50px */
+    width: auto;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
         .location-section {
             padding: 120px 5% 5rem;
             background-color: #f9f9f9;
@@ -133,9 +144,12 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">
-                <h1>Bob 10 Creatives</h1>
-            </div>
+<div class="logo">
+    <div class="top-right-logo">
+        <img src="images/LOGO6.png" alt="Logo" />
+    </div>
+    <h1>TechNova Creatives</h1>
+</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
